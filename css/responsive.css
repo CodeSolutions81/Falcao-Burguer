@@ -32,11 +32,21 @@
     .grid-menu{
         margin-top: 6%;
         color: #ff5825;
-        background-color: aqua;
         width: 49%;
         height: 200px;
         align-items: center;
         text-align: center;
+        background-color: #ff5825;
+    }
+
+    .grid-menu img{
+        margin-top: 2%;
+        width: 170px;
+        height: 170px;
+    }
+
+    .grid-menu p{
+        color: black;
     }
 
     .grid-geral{
