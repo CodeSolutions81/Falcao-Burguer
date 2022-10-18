@@ -20,8 +20,18 @@
         width: 100%;
     }
 
+    .botao{
+        display: none;
+    }
+
     .logo-marca{
-        image-rendering: auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .logo-marca img{
+        width:90%;
+        height: 100%;
     }
 
     .title{
@@ -63,9 +73,11 @@
     }
 
     .rodape{
-        margin-top: 2%;
-        color: blue;
-        background-color: aliceblue;
+        margin-top: 5%;
+        color: rgb(255, 188, 62);
+        display: flex;
+        font-size: 11px;
+        justify-content: center;
     }
 
     .endereco{
@@ -97,6 +109,10 @@
         display: flex;
         align-items: center;
         display: flex;
+    }
+
+    .container-redesocial{
+        margin-bottom: 30%;
     }
 
 }
